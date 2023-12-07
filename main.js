@@ -6,12 +6,12 @@ let btns = document.querySelectorAll(".buttons button");
 
 let toastBox = document.getElementById("toastBox");
 
-let complitedMessege = `<i  class="fa-solid fa-check green"></i> Complited`;
+let complitedMessege = `<i  class="fa-solid fa-check green"></i> Please fix the error!`;
 
 let errorMessage = `<i class="fa-solid fa-x red"></i> Error Message`
 
 
-let invalidMessage = `<i class="fa-solid fa-exclamation yellow"></i> Invalid Message`
+let invalidMessage = `<i class="fa-solid fa-exclamation yellow"></i> Invalid input,check again`
 
 btns[0].addEventListener("click",function(){
     let toast = document.createElement("div");
