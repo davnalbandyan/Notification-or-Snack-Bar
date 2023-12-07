@@ -6,9 +6,9 @@ let btns = document.querySelectorAll(".buttons button");
 
 let toastBox = document.getElementById("toastBox");
 
-let complitedMessege = `<i  class="fa-solid fa-check green"></i> Please fix the error!`;
+let complitedMessege = `<i  class="fa-solid fa-check green"></i> Succesfully  submitted`;
 
-let errorMessage = `<i class="fa-solid fa-x red"></i> Error Message`
+let errorMessage = `<i class="fa-solid fa-x red"></i> Please fix the error!`
 
 
 let invalidMessage = `<i class="fa-solid fa-exclamation yellow"></i> Invalid input,check again`
